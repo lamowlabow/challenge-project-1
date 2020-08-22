@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+.semantic-meaning {
+    font-family: monospace;
+    background-color: #f2f2f2;
+    max-width: 732px;
+    margin: auto;
+    border-right: 5px solid #8c8c8c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header {
+    background-color: #8c8c8c;
+    margin-bottom: 10px;
+    max-width: 732px;
+    margin: auto;
+}
+
+header h1 {
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    color: #242424;
+}
+
+table {
+    background-color: #f2f2f2;
+    text-align: left;
+    margin-top: 20px;
+}
+
+table th {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    border-bottom: 1px solid #8c8c8c;
+    color: #242424;
+}
+
+td {
+    padding-right: 20px;
+    margin-top: 2px;
+    margin-bottom:2px;
+}
+
+.definitions {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td:nth-child(1) {
+   font-family: monospace;
+}
+
+tr:nth-child(1) td:nth-child(1) {
+    background-color: white;
+}
+tr:nth-child(2) td:nth-child(1) {
+    background-color: snow;
+}
+tr:nth-child(3) td:nth-child(1) {
+    background-color: honeydew;
+}
+tr:nth-child(4) td:nth-child(1) {
+    background-color: mintcream;
+}
+tr:nth-child(5) td:nth-child(1) {
+    background-color: azure;
+}
+tr:nth-child(6) td:nth-child(1) {
+    background-color: aliceblue;
+}
+tr:nth-child(7) td:nth-child(1) {
+    background-color: ghostwhite;
+}
+tr:nth-child(8) td:nth-child(1) {
+    background-color: seashell;
+}
+tr:nth-child(9) td:nth-child(1) {
+    background-color: beige;
+}
+tr:nth-child(10) td:nth-child(1) {
+    background-color: oldlace;
+}
+tr:nth-child(11) td:nth-child(1) {
+    background-color: floralwhite;
+}
+tr:nth-child(12) td:nth-child(1) {
+    background-color: ivory;
+}
+
+.made-by {
+    height: 40px;
+    background-color: #242424;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+h3 {
+    font-family: 'Lobster', cursive;
+    color: white;
+    margin-top: 7px;
+}
+
+blockquote {
+    background-color: #f2f2f2;
+    font-style: italic;
+    font-size: 1rem;
+    border-left: 5px solid #8c8c8c;
+    padding-bottom: 10px;
+    max-width: 732px;
+    margin: auto;
+    line-height: 1rem;
+}
+
+.red-quotes {
+    font-size: 30px;
+    color: red;
+}
+
+.container{
+    box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+    margin-bottom: 15px;
+}
