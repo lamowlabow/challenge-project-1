@@ -15,17 +15,21 @@ body {
     font-family: monospace;
     background-color: #f2f2f2;
     max-width: 732px;
-    margin: auto;
-    border-right: 5px solid #8c8c8c;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-right: 5px solid #242424;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 header {
-    background-color: #8c8c8c;
-    margin-bottom: 10px;
+    background-color: #242424;
+    margin-bottom: 50px;
     max-width: 732px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
 }
 
 header h1 {
@@ -38,12 +42,13 @@ h2 {
     font-family: 'Lobster', cursive;
     font-size: 3rem;
     color: #242424;
+    margin-top: 40px;
 }
 
 table {
     background-color: #f2f2f2;
     text-align: left;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 table th {
@@ -106,7 +111,7 @@ tr:nth-child(12) td:nth-child(1) {
 }
 
 .made-by {
-    height: 40px;
+    height: 20px;
     background-color: #242424;
     position: fixed;
     bottom: 0;
@@ -117,18 +122,20 @@ tr:nth-child(12) td:nth-child(1) {
 h3 {
     font-family: 'Lobster', cursive;
     color: white;
-    margin-top: 7px;
+    font-size: 1rem;
 }
 
 blockquote {
     background-color: #f2f2f2;
     font-style: italic;
     font-size: 1rem;
-    border-left: 5px solid #8c8c8c;
+    border-left: 5px solid #242424;
     padding-bottom: 10px;
     max-width: 732px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     line-height: 1rem;
+    margin-top: 40px
 }
 
 .red-quotes {
